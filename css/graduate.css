@@ -1,0 +1,13 @@
+p.read-button {
+    position: absolute;
+    left: 35px;
+    bottom: 5px;
+}
+.profile-box, .profile-box-bottom, .profile-box-middle {
+    background-color: #dddddc;
+    padding-bottom: 15px;
+    min-height: 575px;
+}
+.text {
+    padding: 0 20px;
+}

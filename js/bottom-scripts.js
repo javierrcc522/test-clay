@@ -110,7 +110,7 @@ function __doPostBack(eventTarget, eventArgument) {
 // ----------------------------------------------------------------------
 
 //<![CDATA[
-Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', ['tdnn$ctr137986$View_UP','dnn_ctr137986_View_UP'], [], [], 90, '');
+// Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', ['tdnn$ctr137986$View_UP','dnn_ctr137986_View_UP'], [], [], 90, '');
 //]]>
 
 // ----------------------------------------------------------------------
@@ -137,9 +137,9 @@ $(window).load(function(){
 // ----------------------------------------------------------------------
 
 //<![CDATA[
-Sys.Application.add_init(function() {
-	$create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"dnn_ctr137986_View_UP","displayAfter":500,"dynamicLayout":true}, null, null, $get("dnn_ctr137986_View_UP_Prog"));
-});
+// Sys.Application.add_init(function() {
+// 	$create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"dnn_ctr137986_View_UP","displayAfter":500,"dynamicLayout":true}, null, null, $get("dnn_ctr137986_View_UP_Prog"));
+// });
 //]]>
 
 // ----------------------------------------------------------------------
