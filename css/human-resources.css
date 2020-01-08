@@ -1,0 +1,558 @@
+.departmentHeader h1 {
+    color: #54565b;
+    font-weight: 400;
+    padding-top: 20px 0;
+}
+#sidebarBreadcrumb {
+    padding: 30px 0 0 0;
+    font-size: 12px;
+}
+.quickLinks {
+    background-color:#dddddc;
+    padding:15px 15px 5px 15px;
+    margin-top:15px;
+}
+.quickLinks h2 {
+    border-bottom:1px solid #54565b;
+    font-size:1.1rem;
+    font-weight:600;
+    margin:0 0 20px 0;
+    padding-bottom:5px;
+}
+
+h3,h4,h5 {
+    padding-top:15px;
+}
+.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.rowPadding {
+    padding:30px 0 0 0;
+}
+
+.departmentWidth {
+    max-width: 1270px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.departmentHeader h1 a {
+    color: #092c74;
+    font-weight: normal;
+}
+
+.btn.btn-primary-white {
+    background-color: #092c74;
+    color: #fff;
+}
+.btn.btn-primary-white:hover {
+    color: #092c74;
+    background-color: #fff;
+}
+
+.coolGray {
+    background-color:#dddddc;
+    margin-top:30px;
+}
+
+.flexGray {
+    background-color:#dddddc;
+    min-height:300px;
+}
+
+figure.hrIcons {
+    text-align:center;
+    padding-bottom:30px;
+}
+
+figure.hrIcons img {
+    width: 60%;
+}
+
+.hrIcons a {
+    color:#000;
+}
+
+figcaption h2 {
+    color:#000;
+    text-decoration:none;
+    font-weight:400;
+    font-size:1.2rem;
+}
+
+.flexContent {
+    height: 100%;
+    background-color:#dddddc;
+}
+.headingTwoContainer {
+    background-color: #dddddc;
+    margin-bottom:30px;
+}
+.headingTwo h2 {
+    background-color: #54565b;
+    padding: 10px;
+    color: #fff;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+}
+.headingTwoBlue h2 {
+    background-color:#092c74;
+    padding:10px;
+    color: #fff;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+    font-size:1.2rem;
+}
+.headingTwoBody, .headingTwoBlueBody {
+    padding: 0 20px 1px 20px;
+}
+#bytheNumbers {
+    background-color: #092c74;
+    overflow: hidden;
+    color:#fff;
+    padding-bottom:10px;
+}
+#bytheNumbers .numberHeading {
+    color:#c3d6ee;
+    font-size:3em;
+}
+#bytheNumbers p {
+    margin:auto;
+    width:65%;
+}
+footer.mainFooter {
+    margin-top: 30px;
+}
+.latestHeadlines .textCenter {
+    border-top: 1px solid #54565b;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom:20px;
+}
+.contentWidth.latestHeadlines h2 {
+    display: inline-block;
+    position: relative;
+    bottom: 40px;
+    background-color: #54565b;
+    padding: 10px 20px;
+    font-weight: 400;
+    color: #fff;
+}
+.majorTestimonial {
+    background-color: #badce6 !important;
+}
+.heroContainer {
+    position:relative;
+    text-align:center;
+    color:#fff;
+}
+.heroCentered {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+.heroHeading {
+    font-size: 2.8vw;
+    font-style: normal;
+    font-weight: 600;
+    text-shadow: 2px 2px 5px #000;
+    margin-bottom:10px;
+}
+.herosubHeading {
+    font-size:1.4vw;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px #000;
+}
+.col-sm-1.heroButton {
+    border-left: 1px solid #fff;
+    line-height: 8rem;
+    width:0;
+    padding:0;
+    margin:0;
+}
+.departmentHero .heroButton img {
+    width:25px;
+    height:25px;
+}
+
+#departmentNav, #collegeNav {
+    background: #ffffff;
+    margin: 0;
+    width: auto;
+    padding: 0;
+    line-height: 1;
+    display: block;
+    position: relative;
+    box-sizing: content-box;
+}
+#departmentNav, #collegeNav ul {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+#departmentNav ul:after, #collegeNav ul:after, #departmentNav:after, #collegeNav:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+#departmentNav ul li, #collegeNav ul li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    position: relative;
+    z-index:999
+}
+#departmentNav ul li a, #collegeNav ul li a  {
+    text-decoration: none;
+    display: block;
+    margin: 0;
+}
+#departmentNav ul li ul, #collegeNav ul li ul {
+    position: absolute;
+    left: -9999px;
+    top: auto;
+    z-index: 999;
+}
+#departmentNav ul li ul li, #collegeNav ul li ul li {
+    max-height: 0;
+    position: absolute;
+}
+#departmentNav ul li ul li.has-sub:after, #collegeNav ul li ul li.has-sub:after {
+    display: block;
+    position: absolute;
+    content: "";
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background: #54565b;
+    z-index: 1;
+    top: 13px;
+    right: 15px;
+}
+#departmentNav.align-right ul li ul li.has-sub:after, #collegeNav.aligh-right ul li ul li.has-sub:after {
+    right: auto;
+    left: 15px;
+}
+#departmentNav ul li ul li.has-sub:before, #collegeNav ul li ul li.has-sub:before {
+    display: block;
+    position: absolute;
+    content: "";
+    height: 0;
+    width: 0;
+    border: 3px solid transparent;
+    border-left-color: #fff;
+    z-index: 2;
+    top: 15px;
+    right: 15px;
+}
+#departmentNav.align-right ul li ul li.has-sub:before, #collegeNav.align-right ul li ul li.has-sub:before {
+    right: auto;
+    left: 15px;
+    border-left-color: transparent;
+    border-right-color: #54565b;
+}
+#departmentNav ul li ul li a, #collegeNav ul li ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #54565b;
+    display: block;
+    padding: 11px 10px 11px 20px;
+    text-align:left;
+    width:230px;
+}
+#departmentNav ul li ul li:hover > a, #departmentNav ul li ul li.active > a, #collegeNav ul li ul li:hover > a, #collegeNav ul li ul li.active > a {
+    color: #000000;
+}
+#departmentNav ul li ul li:hover > ul, #collegeNav ul li ul li:hover > ul {
+    left: 100%;
+    top: 0;
+    background-color:#dddddc;
+}
+#departmentNav ul li ul li:hover > ul > li, #collegeNav ul li ul li:hover > ul > li {
+    max-height: 72px;
+    position: relative;
+    background-color:#dddddc;
+}
+#departmentNav > ul > li, #collegeNav > ul > li {
+    float: left;
+}
+#departmentNav > ul > li:after, #collegeNav > ul > li:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    z-index: 0;
+    background: #fff;
+}
+#departmentNav > ul > li > a, #collegeNav > ul > li > a {
+    color: #54565b;
+    padding: 5px 30px;
+    font-weight: 400;
+    font-size: 16px;
+    z-index: 2;
+    position: relative;
+}
+#departmentNav > ul > li:hover:after, #departmentNav > ul > li.active:after, #collegeNav > ul > li:hover:after, #collegeNav > ul > li.active:after {
+    height: 100%;
+}
+#departmentNav > ul > li:hover > a, #departmentNav > ul > li.active > a, #collegeNav > ul > li:hover > a, #collegeNav > ul > li.active > a {
+    color: #fff;
+    background-color:#54565b;
+}
+#departmentNav > ul > li:hover > a:before, #departmentNav > ul > li.active > a:before, #collegeNav > ul > li:hover > a:before, #collegeNav > ul > li.active > a:before {
+    border-top-color: #fff;
+}
+#departmentNav > ul > li:hover > ul, #collegeNav > ul > li:hover > ul {
+    left: 0;
+}
+#departmentNav > ul > li:hover.CNright > ul, #collegeNav > ul > li:hover.CNright > ul {
+    left:auto;
+    right:0;
+}
+#departmentNav > ul > li:hover > ul > li, #collegeNav > ul > li:hover > ul > li {
+    max-height: 90px;
+    position: relative;
+}
+#departmentNav #menu-button, #collegeNav #menu-button {
+    display: none;
+}
+#departmentNav > ul > li > a, #collegeNav > ul > li > a {
+    display: block;
+    border-right:1px solid #54565b;
+}
+#departmentNav > ul > li.first > a, #collegeNav > ul > li.first > a {
+    border-left:1px solid #54565b;
+}
+#departmentNav > ul > li, #collegeNav > ul > li {
+    width: auto;
+}
+#departmentNav > ul > li > ul, #collegeNav > ul > li > ul {
+    width: 226px;
+    display: block;
+    background-color:#dddddc;
+}
+@media all and (max-width:1321px) {
+    #departmentNav > ul > li > a {
+        padding:5px 20px;
+    }
+}
+@media all and (max-width:1180px) {
+    #departmentNav > ul > li > a, #collegeNav > ul > li > a {
+        padding:5px 15px;
+    }
+}
+@media all and (max-width:1110px) {
+    #departmentNav > ul > li > a, #collegeNav > ul > li > a {
+        padding:5px 10px;
+    }
+}
+@media all and (max-width:970px) {
+    #departmentNav > ul > li > a, #collegeNav > ul > li > a {
+        padding:5px 5px;
+    }
+}
+@media all and (max-width: 900px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+    #departmentNav, #collegeNav {border:1px solid #54565b;}
+    #departmentNav > ul, #collegeNav > ul {
+        max-height: 0;
+        overflow: hidden;
+    }
+    #departmentNav > ul > li > ul, #collegeNav > ul > li > ul {
+        width: 100%;
+        display: block;
+    }
+    #departmentNav.align-right ul li a, #collegeNav.align-right ul li a {
+        text-align: left;
+    }
+    #departmentNav > ul > li > ul > li, #collegeNav > ul > li > ul > li {
+        width: 100%;
+        display: none;/*Hide nav in mobile*/
+    }
+    #departmentNav.align-right ul ul li a, #collegeNav.align-right ul ul li a {
+        text-align: left;
+    }
+    #departmentNav > ul > li > ul > li > a, #collegeNav > ul > li > ul > li > a {
+        width: 100%;
+        display: block;
+    }
+    #departmentNav > ul > li.first > a, #collegeNav > ul > li.first > a {
+        border-left:none;
+    }
+    #departmentNav > ul > li > a, #collegeNav > ul > li > a {
+        border-right:none;
+    }
+    #departmentNav ul li ul li a, #collegeNav ul li ul li a {
+        width: 100%;
+    }
+    #departmentNav.align-center > ul, #collegeNav.align-center > ul {
+        text-align: left;
+    }
+    #departmentNav.align-center > ul > li, #collegeNav.align-center > ul > li {
+        display: block;
+    }
+    #departmentNav > ul.open, #collegeNav > ul.open {
+        max-height: 1000px;
+        border-top: 1px solid rgba(110, 110, 110, 0.25);
+    }
+    #departmentNav ul, #collegeNav ul {
+        width: 100%;
+    }
+    #departmentNav ul > li, #collegeNav ul > li {
+        float: none;
+        width: 100%;
+    }
+    #departmentNav ul li a, #collegeNav ul li a {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 12px 20px;
+    }
+    #departmentNav ul > li:after, #collegeNav ul > li:after {
+        display: none;
+    }
+    #departmentNav ul li.has-sub > a:after,
+    #departmentNav ul li.has-sub > a:before,
+    #departmentNav ul li ul li.has-sub:after,
+    #departmentNav ul li ul li.has-sub:before,
+    #collegeNav ul li.has-sub > a:after,
+    #collegeNav ul li.has-sub > a:before,
+    #collegeNav ul li ul li.has-sub:after,
+    #collegeNav ul li ul li.has-sub:before
+    {
+        display: none;
+    }
+    #departmentNav ul li ul,
+    #departmentNav ul li ul li ul,
+    #departmentNav ul li ul li:hover > ul,
+    #departmentNav.align-right ul li ul,
+    #departmentNav.align-right ul li ul li ul,
+    #departmentNav.align-right ul li ul li:hover > ul,
+    #collegeNav ul li ul,
+    #collegeNav ul li ul li ul,
+    #collegeNav ul li ul li:hover > ul,
+    #collegeNav.align-right ul li ul,
+    #collegeNav.align-right ul li ul li ul,
+    #collegeNav.align-right ul li ul li:hover > ul
+    {
+        left: 0;
+        position: relative;
+        right: auto;
+    }
+    #departmentNav ul li ul li,
+    #departmentNav ul li:hover > ul > li,
+    #collegeNav ul li ul li,
+    #collegeNav ul li:hover > ul > li
+    {
+        max-height: 999px;
+        position: relative;
+        background: none;
+    }
+    #departmentNav ul li ul li a, #collegeNav ul li ul li a {
+        padding: 8px 20px 8px 35px;
+        color: #54565b;
+    }
+    #departmentNav ul li ul ul li a, #collegeNav ul li ul ul li a {
+        padding: 8px 20px 8px 50px;
+    }
+    #departmentNav ul li ul li:hover > a, #collegeNav ul li ul li:hover > a {
+        color: #000;
+    }
+    #departmentNav #menu-button, #collegeNav #menu-button {
+        display: block;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 15px 20px;
+        font-weight: 400;
+        font-size: 1.6em;
+        letter-spacing: 3px;
+        color: #fff;
+        background-color:#54565b;
+        cursor: pointer;
+    }
+    #departmentNav #menu-button:after, #collegeNav #menu-button:after {
+        display: block;
+        content: '';
+        position: absolute;
+        height: 3px;
+        width: 22px;
+        border-top: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+        right: 20px;
+        top: 17px;
+        box-sizing: content-box;
+    }
+    #departmentNav #menu-button:before, #collegeNav #menu-button:before {
+        display: block;
+        content: '';
+        position: absolute;
+        height: 3px;
+        width: 22px;
+        border-top: 2px solid #fff;
+        right: 20px;
+        top: 27px;
+        box-sizing: content-box;
+    }
+}
+/*Main CSS Override*/
+#content ul li {margin-bottom:0;}
+.headingTwoBody ul li {margin-left:25px;}
+
+@media only screen and (min-width:992px) {
+    .col-md-push-4 {left: 25%!important;}
+    .col-md-pull-4 {right: 50%!important;}
+}
+
+@media screen and (max-width:767px){
+    .majorTestimonial {text-align:center;}
+    #bytheNumbers p {width:100%;}
+    .headingTwo, .headingTwoBlue {margin-top:25px;}
+    .headingTwo.first, .headingTwoBlue.first {margin-top:0;}
+    .flexContent {height:auto;}
+    .departmentNews .newsItemn {margin-bottom:25px !important;}
+    .col-sm-1.heroButton {
+        border-left:none;
+        line-height: 0;
+        text-align:center;
+    }
+    .heroCentered {
+        width:80%;
+    }
+    .heroHeading {
+        font-size: 2em;
+        font-weight: 600;
+        text-shadow: 2px 2px 5px #000;
+        margin:0 0 8px;
+    }
+    .herosubHeading {
+        font-size: 1.2em;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-shadow: 2px 2px 5px #000;
+    }
+    .col-sm-1.heroButton {
+        border-top: 1px solid #fff;
+        margin-top: 15px;
+        padding: 0 20px;
+        width:100%;
+    }
+    .departmentHero .heroButton img {
+        width: 25px;
+        height: 25px;
+        display:inline-block;
+        position:relative;
+        bottom:14px;
+    }
+
+
+}
