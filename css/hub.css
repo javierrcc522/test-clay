@@ -17,6 +17,7 @@ div h2.text-mega{
     margin-bottom:25px;
 }
 div.jumbotron{margin-bottom:0px;}
+
 div#specialHours{
     background-image:url("../images/ClosedCounter.jpg");
     background-size:cover;
