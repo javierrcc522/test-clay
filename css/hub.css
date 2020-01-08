@@ -3760,8 +3760,21 @@ image[alt*="naclogin"]{
     background-color:lightgray;
 }
 
+.col-xs-12.lower-section{
+    background-color:lightgray;
+}
 
+.col-xs-12.hidden-lg{
+    background-color:lightgray;
+}
 
+.col-xs-12.hidden-xs.hidden-sm.hidden-md{
+    background-color:lightgray;
+}
+
+.col-xs-12.bottom-section{
+    background-color:white;
+}
 
 
 
