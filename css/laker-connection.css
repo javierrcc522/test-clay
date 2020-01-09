@@ -518,3 +518,20 @@ h4.morestory{
 .change-size{
     font-size:larger;
 }
+
+
+.make-h3 {
+    font-size:22px;
+    margin:0;
+    padding:0;
+    font-weight:300;
+    color:#fff;
+}
+
+.feature-text{
+    margin-top: 25px;
+    padding-bottom: 10px;
+    line-height: 35px;
+    font-size: 2.25rem;
+    color: #54565b;
+}
