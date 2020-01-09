@@ -33,4 +33,9 @@
 
 a.btn.btn-block.btn-lg.btn-primary{
     font-weight:bold;
+    text-align: left;
+}
+
+.glyphicon {
+    margin-right: .5em;
 }
