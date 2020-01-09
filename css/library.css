@@ -1,0 +1,22 @@
+.pane-spacing{
+    padding: 15px 0 15px 0;
+}
+
+.nav-pills>li>a:hover {
+    background-color: white;
+    color: #092c74;
+    border:1px solid #000;
+}
+.nav>li>a:focus {
+    background-color:#092c74;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
+    font-weight: bold;
+}
+.nav-pills > li > a {
+    border-radius: 4px;
+    color: #fff;
+}
