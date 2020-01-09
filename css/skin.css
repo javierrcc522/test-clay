@@ -1844,11 +1844,6 @@ iframe, embed, object {
   max-width: 100%;
 }
 
-a, a:link, a:visited  {
-  text-decoration:none;
-  /*color:#0B3C9D;*/
-  font-weight:bold;
-}
 a:active, a:focus, a:hover {
   text-decoration:underline;
 }
