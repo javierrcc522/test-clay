@@ -32,10 +32,18 @@
 }
 
 a.btn.btn-block.btn-lg.btn-primary{
-    font-weight:bold;
-    text-align: left;
-}
+     font-weight:bold;
+     text-align: left;
+ }
 
 .glyphicon {
     margin-right: .5em;
 }
+
+/*ul.nav.nav-pills {*/
+/*    background-color: #092c74;*/
+/*    border-radius: 5px;*/
+/*    width: 100%;*/
+/*    margin: 0px;*/
+/*    margin-bottom:10px;*/
+/*}*/

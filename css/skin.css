@@ -2376,11 +2376,11 @@ header.mainHeader * {}
       background-color:#dddddc;
     }
 
-    /*.btn-primary, a.btn.btn-primary {*/
-    /*  color: #fff;*/
-    /*  background-color: #092c74;*/
-    /*  border-color: #092c74;*/
-    /*}*/
+    .btn-primary, a.btn.btn-primary {
+      color: #fff;
+      background-color: #092c74;
+      border-color: #092c74;
+    }
 
     .btn-primary:focus,
     .btn-primary.focus {
