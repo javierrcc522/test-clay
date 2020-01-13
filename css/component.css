@@ -43,7 +43,7 @@
     position: relative;
     margin: 0;
     padding: 0;
-    background: #fc6719;
+
 }
 #cssmenu > ul > li.social-media {
     display: inline-block;
@@ -70,9 +70,11 @@
     -ms-transition: color 0.25s ease-out;
     -o-transition: color 0.25s ease-out;
     transition: color 0.25s ease-out;
+    background: #fc6719;
 }
 #cssmenu > ul > li.has-sub > a {
     padding-right: 32px;
+    background: #fc6719;
 }
 #cssmenu > ul > li:hover > a {
     color: #092c74;
