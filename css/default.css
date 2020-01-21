@@ -302,7 +302,7 @@ a, a:visited {
 }
 
     a:hover, a:focus, a:active {
-        color: #222;
+        /*color: #222;*/
         outline: 0;
     }
 

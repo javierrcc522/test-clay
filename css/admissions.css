@@ -1,7 +1,25 @@
-p.whitelink a {
+.claytonModuleContent{
     color: #fff !important;
 }
 
-.claytonModuleContent{
+.claytonModuleContent > h2 {
+    text-align:center; font-size: 36px;font-weight: 400;
+}
+
+.claytonModuleContent .row{
+    padding-top: 20px;padding-bottom: 10px;
+}
+
+.claytonModuleContent .row .col-sm-3.sec{
+    border-right:1px solid #fff;
+}
+
+
+.claytonModuleContent .row .col-sm-3.sec > p {
     color: #fff !important;
+}
+
+.claytonModuleContent .row .col-sm-3.sec > p.whitelink {
+    color: #fff;
+    background-color: transparent;
 }
