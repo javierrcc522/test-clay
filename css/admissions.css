@@ -1,13 +1,7 @@
-.claytonModuleContent  h2 {
-    color: white !important;
-}
-
 p.whitelink a {
-
     color: #fff !important;
 }
 
-
-.claytonModuleContent h2 {
-    color: #fff
+.claytonModuleContent{
+    color: #fff !important;
 }
