@@ -47,3 +47,11 @@ ul.nav.nav-pills {
     margin: 0px;
     margin-bottom:10px;
 }
+
+.xgiro{
+    text-align: left; margin-left: 6px; padding-top: 4px; font-size: 13px; color: #000000;
+}
+
+.ygiro{
+    padding-top: 22px; padding-right: 5px; padding-left: 5px; box-shadow: 0px 1px 3px 0px #666666; background-color: #ffffff;
+}

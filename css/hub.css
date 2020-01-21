@@ -29,7 +29,11 @@ h1,h2,h3,h4,h5,h6{
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
     /*color:#444;*/
 }
-.orangeText{color:#fc6719;}
+/*.orangeText{color:#fc6719;}*/
+
+h2.text-center > span {
+    color: #fc6719;
+}
 /*************
 **Menu Begin**
 **************/
