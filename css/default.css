@@ -297,7 +297,6 @@ hr {
 /* ANCHOR STYLES */
 /*-------------------------------------*/
 a, a:visited {
-    color: rgb(2,139,255); /*blue*/
     text-decoration: underline;
     outline: 0;
 }
