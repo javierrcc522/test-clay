@@ -1828,7 +1828,6 @@ iframe, embed, object {
 
 a, a:link, a:visited  {
     text-decoration:none;
-    color:#0B3C9D;
 	font-weight:bold;
 }
 a:active, a:focus, a:hover {
