@@ -1,7 +1,8 @@
 .claytonModuleContent > h2 {
-    color: white;
+    color: white !important;
 }
 
-a.whitelink {
-    background: #444;
+.whitelink > a{
+    background: #444 !important;
+    color: #ffffff;
 }
