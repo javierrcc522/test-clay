@@ -2,7 +2,7 @@
     color: white !important;
 }
 
-.whitelink > a{
-    background: #444 !important;
-    color: #ffffff;
+p.whitelink a {
+
+    color: #ffffff !important;
 }
