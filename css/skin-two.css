@@ -199,8 +199,7 @@ mark {
 
 body {
     background: #f0f0f0;
-    color: #333;
-    font-size: 13px
+    font-size: 13px;
 }
 
 .container-fluid, .no-gutter {
