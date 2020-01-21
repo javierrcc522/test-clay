@@ -19,7 +19,7 @@
     color: #fff !important;
 }
 
-.claytonModuleContent .row .col-sm-3.sec > p.whitelink {
+.claytonModuleContent .row .col-sm-3.sec > p.whitelink > a{
     color: #fff;
     background-color: transparent;
 }
