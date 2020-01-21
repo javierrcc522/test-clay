@@ -1,6 +1,6 @@
-.agox{
-    color:#fff !important;
-    font-size:larger
+.col-sm-3 > p.agox {
+    color: #fff !important;
+    font-size: larger;
 }
 
 .fgox{
