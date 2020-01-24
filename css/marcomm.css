@@ -5662,3 +5662,7 @@ ul li{
     box-shadow: rgba(0, 0, 0, 0.75) 0px 0px 7px 0px;
     filter: brightness(100%);
 }
+
+.sel > h2 {
+    color: #58595b;
+}
