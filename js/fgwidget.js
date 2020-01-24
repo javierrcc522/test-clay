@@ -62,9 +62,10 @@ if ("undefined" == typeof FG_NS) var FG_NS = new function() {
         0 === t.length && (t = f("div[fgid=" + e.uniqid + "]")), 0 !== t.length && (t.html(e.html).trigger("fg.loaded"), "undefined" != typeof fg_widget_js && fg_widget_js[e.uniqid].execute("initWidget", f))
     }
 
-    var div = document.getElementsByClassName('uw-w-branding');
-
-    div.innerHTML += 'Place holder';
+    $('.uw-w-branding').append("place holder");
 
 };
 
+$(window).load(function() {
+    $('.uw-w-branding').append("place holder");
+});
