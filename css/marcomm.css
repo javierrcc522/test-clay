@@ -444,7 +444,7 @@ h1 {
 
 h2 {
     font-size: 1.0rem;
-    color: #58595b;
+    color: #3A3A40;
 }
 
 h3 {
@@ -5661,8 +5661,4 @@ ul li{
 .marcomm-laker{
     box-shadow: rgba(0, 0, 0, 0.75) 0px 0px 7px 0px;
     filter: brightness(100%);
-}
-
-.sel > h2 {
-    color: #58595b;
 }
